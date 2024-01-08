@@ -1,0 +1,140 @@
+
+@media (min-device-width: 600px) and (max-device-width: 2400px) {
+ 
+
+  .first-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    height: 600px;
+
+    }
+
+    .body{
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+   }
+
+  .pencil{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+   }
+
+  .bag{
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+   }
+
+  .computer{
+    position: absolute;
+    bottom: 20px;
+    
+    left: 640px  ;    
+    padding: 0px;
+    
+  }
+
+  h2 {
+    display: block;
+   color: #66bfbf;
+   font-family: "Montserrat", sans-serif;
+   font-size: 2.5rem;
+   font-weight: bolder;
+   padding-bottom: 0px ;
+
+  }
+
+  h1 {
+    color :#66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+  }
+
+   .second-container{
+    background-color: white;
+    position: relative;
+    height: 2000px;
+    padding: 120px;
+   }
+
+  .skills{
+    padding: 100px;
+  }
+
+  .meme-coding{
+    padding-right: 500px;
+   }
+  h3{
+    color: #228080;
+    font-family: "Montserrat", sans-serif;
+   
+  }
+
+  h3 {
+    display: block;
+    font-size: 1.57em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+ .parent {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
+
+
+  .third-container{
+
+    background-color: white;
+  }
+
+   .bottom-container{
+
+    background-color: #66bfbf;
+     padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+
+  p{
+    font-size: 1.5rem;
+    line-height: 2;
+  }
+
+  .contactme{
+    padding: 110px;
+  }
+
+  .btn{
+    background-color: #11cdd4;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    
+  }
+
+  a{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+   .third-container{
+
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+  }
+  }
