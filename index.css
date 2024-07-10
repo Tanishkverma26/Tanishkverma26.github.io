@@ -1,140 +1,191 @@
-
-@media (min-device-width: 600px) and (max-device-width: 2400px) {
- 
-
-  .first-container{
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
-    height: 600px;
-
-    }
-
-    .body{
+/* Base styles for mobile-first approach */
+body {
     background-color: black;
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
-   }
+}
 
-  .pencil{
+.first-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    height: auto; /* Changed to auto for better responsiveness */
+}
+
+.pencil {
     position: absolute;
-    right: 150px;
+    right: 20px; /* Adjusted for mobile */
     top: 20px;
-   }
+}
 
-  .bag{
+.bag {
     position: absolute;
-    left: 150px;
-    bottom: 150px;
-   }
+    left: 20px; /* Adjusted for mobile */
+    bottom: 50px; /* Adjusted for mobile */
+}
 
-  .computer{
+.computer {
     position: absolute;
     bottom: 20px;
-    
-    left: 640px  ;    
+    left: 20px; /* Adjusted for mobile */
     padding: 0px;
-    
-  }
+}
 
-  h2 {
-    display: block;
-   color: #66bfbf;
-   font-family: "Montserrat", sans-serif;
-   font-size: 2.5rem;
-   font-weight: bolder;
-   padding-bottom: 0px ;
-
-  }
-
-  h1 {
-    color :#66bfbf;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+h1 {
+    color: #66bfbf;
+    font-size: 2.5rem; /* Adjusted for mobile */
+    margin: 20px auto 0 auto;
     font-family: "Sacramento", cursive;
-  }
+}
 
-   .second-container{
+h2 {
+    display: block;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem; /* Adjusted for mobile */
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+.second-container {
     background-color: white;
     position: relative;
-    height: 2000px;
-    padding: 120px;
-   }
+    height: auto; /* Changed to auto for better responsiveness */
+    padding: 60px; /* Adjusted for mobile */
+}
 
-  .skills{
-    padding: 100px;
-  }
+.skills {
+    padding: 50px; /* Adjusted for mobile */
+}
 
-  .meme-coding{
-    padding-right: 500px;
-   }
-  h3{
+.meme-coding {
+    padding-right: 20px; /* Adjusted for mobile */
+}
+
+h3 {
     color: #228080;
     font-family: "Montserrat", sans-serif;
-   
-  }
-
-  h3 {
     display: block;
-    font-size: 1.57em;
+    font-size: 1.2rem; /* Adjusted for mobile */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-  }
+}
 
- .parent {
+.parent {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
-    width: 50%;
-    margin: 100px auto 0 auto;
+    width: 90%; /* Adjusted for mobile */
+    margin: 50px auto 0 auto; /* Adjusted for mobile */
     text-align: left;
     row-gap: 2rem;
-  }
+}
 
-
-  .third-container{
-
+.third-container {
     background-color: white;
-  }
+}
 
-   .bottom-container{
-
+.bottom-container {
     background-color: #66bfbf;
-     padding-top: 50px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-  }
+    padding: 30px 0 20px 0; /* Adjusted for mobile */
+}
 
-  p{
-    font-size: 1.5rem;
-    line-height: 2;
-  }
+p {
+    font-size: 1rem; /* Adjusted for mobile */
+    line-height: 1.5; /* Adjusted for mobile */
+}
 
-  .contactme{
-    padding: 110px;
-  }
+.contactme {
+    padding: 50px; /* Adjusted for mobile */
+}
 
-  .btn{
+.btn {
     background-color: #11cdd4;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1rem; /* Adjusted for mobile */
     color: #ffffff;
-    
-  }
+}
 
-  a{
+a {
     color: #11999e;
     font-family: "Montserrat", sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-  }
-   .third-container{
+}
 
+.third-container {
     background-color: #66bfbf;
-    padding: 50px 0 20px;
-  }
-  }
+    padding: 30px 0 20px; /* Adjusted for mobile */
+}
+
+/* Styles for larger screens (tablets, laptops, desktops) */
+@media (min-width: 600px) {
+    h1 {
+        font-size: 5.625rem;
+        margin: 50px auto 0 auto;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .first-container {
+        height: 600px;
+    }
+
+    .pencil {
+        right: 150px;
+        top: 20px;
+    }
+
+    .bag {
+        left: 150px;
+        bottom: 150px;
+    }
+
+    .computer {
+        left: 640px;
+    }
+
+    .second-container {
+        height: 2000px;
+        padding: 120px;
+    }
+
+    .skills {
+        padding: 100px;
+    }
+
+    .meme-coding {
+        padding-right: 500px;
+    }
+
+    .parent {
+        width: 50%;
+        margin: 100px auto 0 auto;
+    }
+
+    .bottom-container {
+        padding-top: 50px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    .contactme {
+        padding: 110px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .third-container {
+        padding: 50px 0 20px;
+    }
+}
